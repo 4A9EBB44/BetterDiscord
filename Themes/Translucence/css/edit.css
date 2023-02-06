@@ -1,0 +1,79 @@
+/**
+ * @name Translucence
+ * @version 1.0.6.4
+ * @description A translucent/frosted glass Discord theme
+ * @author Ender
+ *
+ * @website http://github.com/4A9EBB44
+ * @source https://github.com/4A9EBB44/BetterDiscord/blob/master/Themes/Translucence/css/source.css
+ * @donate *
+ * @invite jzJkA6Z
+ */
+
+ @import url(https://capnkitten.github.io/BetterDiscord/Themes/Translucence/css/source.css); /* https://capnkitten.github.io/BetterDiscord/Themes/Translucence/css/source.css */
+ :root {
+     --app-bg: url(https://github.com/4A9EBB44/BetterDiscord/blob/master/Themes/Translucence/2_Kaine_8k_Center.jpg?raw=true);/* https://i.imgur.com/bgmVeyt.jpg */
+     --app-blur: 0px;
+     --app-margin: 0px;
+     --app-radius: 5px; /*	-	*/
+ 
+     /* HSL to RGB/HEX/CMYK: https://htmlcolors.com/color-converter */
+     /* Spotify theme color
+     --accent-hue: 124.9;
+     --accent-saturation: 56.3%;
+     --accent-lightness: 61.4%; 
+     */
+     /* White theme color below */
+     --accent-hue: 0;
+     --accent-saturation: 0%;
+     --accent-lightness: 100%;
+     --accent-opacity: 1;
+     --accent-text-color: #000; /*	-	*/
+ 
+     --sidebar-color: rgba(0,0,0,0);
+     --main-content-color: rgba(0,0,0,0); /*	-	*/
+ 
+     --message-color: rgba(0,0,0,0); /* ending 0: background transparent;*/
+     --message-radius: 5px;
+     --message-padding-top: 0px;
+     --message-padding-side: 0px; /*	-	*/
+     
+     --reply-hue: 226;
+     --reply-saturation: 77.4%;
+     --reply-lightness: 61.8%;
+     --reply-opacity: 1; /*	-	*/
+ 
+     --textarea-color: 255,255,255;
+     --textarea-alpha: 0.1;
+     --textarea-alpha-focus: 0.2;
+     --textarea-text-color: #fff;
+     --textarea-radius: 22px;  /*	-	*/
+ 
+     --card-color: rgba(0,0,0,0);
+     --card-color-hover: rgba(0,0,0,0.5);
+     --card-color-select: rgba(0,0,0,0.7); /*	-	*/
+     
+     --button-height: 32px;
+     --button-padding: 0 16px;
+     --button-action-color: #000;
+     --button-radius: 16px; /*	-	*/
+ 
+     --interactive-normal: #aaa;
+     --interactive-hover: #ddd;
+     --interactive-active: #fff;
+     --interactive-muted: #777; /*	-	*/
+ 
+     --background-modifier-hover: rgba(255,255,255,0.075);
+     --background-modifier-selected: rgba(255,255,255,0.125);
+ }
+ /* Title Bar
+    Fix macOS window action background color (background under close/mini/maxi) 
+ */
+ .titleBar-1it3bQ.typeMacOS-3V4xXE {
+   top: -100px;
+ }
+ /* Remove padding */
+ .platform-osx .wrapper-1_HaEi {
+   margin-top: 0px;
+   padding-top: 0px;
+ }
