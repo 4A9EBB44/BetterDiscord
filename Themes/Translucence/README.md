@@ -6,6 +6,8 @@ Current version: v1.0.6.3 (26/02/2021)
 
 ## Previews
 
+#### Change Wallpaper
+Replace the background link with "https://*.jpg?raw=true"
 #### Main chat area
 
 ![discord-101](https://user-images.githubusercontent.com/4013216/125158359-b07aec80-e13e-11eb-8a85-01e49d772192.png)
